@@ -23,7 +23,6 @@
             >Email Address
             <input
               type="email"
-              name=""
               id="email"
               placeholder="Enter email address"
               required
@@ -36,7 +35,6 @@
               >Number
               <input
                 type="tel"
-                name=""
                 id="number"
                 placeholder="Enter mobile number"
                 required
@@ -76,21 +74,15 @@
 
         <div class="input-box address">
           <label>Address</label>
+          <input type="text" placeholder="Enter street address" required />
           <input
             type="text"
-            name=""
-            placeholder="Enter street address"
-            required
-          />
-          <input
-            type="text"
-            name=""
             placeholder="Enter street address line 2"
             required
           />
           <div class="column">
             <div class="select-box">
-              <select name="country" id="">
+              <select name="country" id="select-country">
                 <option value="country" hidden>Country</option>
                 <option value="america">America</option>
                 <option value="japan">Japan</option>
@@ -99,22 +91,12 @@
                 <option value="nepal">Nepal</option>
               </select>
             </div>
-            <input type="text" name="" placeholder="Enter your city" required />
+            <input type="text" placeholder="Enter your city" required />
           </div>
 
           <div class="column">
-            <input
-              type="text"
-              name=""
-              placeholder="Enter your region"
-              required
-            />
-            <input
-              type="text"
-              name=""
-              placeholder="Enter postal code"
-              required
-            />
+            <input type="text" placeholder="Enter your region" required />
+            <input type="text" placeholder="Enter postal code" required />
           </div>
         </div>
 

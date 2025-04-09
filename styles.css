@@ -27,7 +27,7 @@ body {
   font-size: 1.5rem;
   font-weight: 500;
   text-align: center;
-  color: #333;
+  color: #303030;
 }
 
 .container .form {
@@ -40,7 +40,7 @@ body {
 }
 
 .form .input-box label {
-  color: #333;
+  color: #303030;
 }
 
 .form :where(.input-box input, .select-box) {
@@ -50,8 +50,17 @@ body {
   font-size: 1rem;
   padding: 0 15px;
   border: 1px solid #ddd;
+  outline: none;
   border-radius: 6px;
-  color: #707070;
+  color: #818181;
+}
+
+.input-box input:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.gender label {
+  color: #818181;
 }
 
 .form .column {
@@ -84,7 +93,7 @@ body {
 }
 
 .gender-box h3 {
-  color: #333;
+  color: #303030;
   font-weight: 400;
   font-size: 1rem;
 }
@@ -94,7 +103,7 @@ body {
   width: 100%;
   border: none;
   outline: none;
-  color: #707070;
+  color: #818181;
   font-size: 1rem;
 }
 
@@ -112,7 +121,7 @@ body {
   margin-top: 30px;
   color: #fff;
   font-size: 1rem;
-  transition: all 0.2s ease;
+  transition: all 0.4s ease;
   font-weight: 400;
 }
 
