@@ -37,7 +37,7 @@ Some changes I made to the original tutorial include:
 
 1. Clone or download this repo:
    ```bash
-   git clone https://github.com/yourusername/registration-form.git
+   git clone https://github.com/JesNetWD/Responsive-Registration-Form
 2. Open `index.html` in your browser  
 3. Modify and build on it as you like!
 
@@ -49,5 +49,5 @@ Some changes I made to the original tutorial include:
 
 ## 🙌 Acknowledgements
 
-Thanks to [CodingLab] for the original tutorial that inspired this project.  
+Thanks to [CodingLab](https://www.youtube.com/channel/UCBlr2jG1onljL-gUy9bbhJw) for the original tutorial that inspired this project.  
 
