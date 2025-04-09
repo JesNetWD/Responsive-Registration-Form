@@ -18,10 +18,6 @@ This project was inspired by a YouTube tutorial. You can check out the original 
 - HTML5
 - CSS3  
 
-## 📁 File Structure
-registration-form/ ├── index.html ├── style.css 
-
-
 ## 🧪 Personal Adjustments
 
 Some changes I made to the original tutorial include:
